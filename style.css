@@ -190,3 +190,13 @@ p {
   text-transform: uppercase;
 }
 /* /contacts */
+
+/* footer */
+.footer p{
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--text-light);
+  
+}
+/* /footer */
