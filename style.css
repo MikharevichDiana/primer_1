@@ -51,6 +51,18 @@ p {
 }
 
 /* components  */
+
+.container {
+  width: 1200px;
+  padding: 0 15;
+  margin: 0 auto;
+}
+
+.list-no-style {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
 .btn-modal-open {
   font-weight: 600;
   font-size: 12px;
@@ -97,6 +109,11 @@ p {
 /* /components */
 
 /* header */
+
+.header {
+  background-color: aqua;
+}
+
 .header a {
   font-weight: 600;
   font-size: 12px;
@@ -192,11 +209,10 @@ p {
 /* /contacts */
 
 /* footer */
-.footer p{
+.footer p {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   color: var(--text-light);
-  
 }
 /* /footer */
